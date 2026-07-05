@@ -6,13 +6,13 @@ Alumnos:
 
 * Edduar Orlando Tapia Urbina (C.I.: 32.305.750)
 
-* __Descripcion general__ 
+__Descripcion general__ 
 
 El siguiente programa, cuyas instrucciones fueron otorgadas por el profesor Ing. Dick Diaz, intenta simular de manera sencilla y directa un gestor de cuentas bancarias. Cuenta con apartados que van desde gestionar la sesion actual, hasta transferir, guardar contactos retirar al saldo actual y muchas otras caracteristicas.  
 
-* 'Si puedes imaginarlo, puedes programarlo'
+"Si puedes imaginarlo, puedes programarlo."
 - Alejandro Taboada Sanchez. (2019)
 
-  **Guasdualito, Edo. Apure, Julio del 2026**
+**Guasdualito, Edo. Apure, Julio del 2026**
 
 NOTA: Programa sujeto a errores. No se hace uso de varias funciones importantes para evitarlos. (Requisito impuesto por conocimientos generales).
