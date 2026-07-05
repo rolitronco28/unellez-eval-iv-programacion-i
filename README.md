@@ -10,7 +10,8 @@ Alumnos:
 
 El siguiente programa, cuyas instrucciones fueron otorgadas por el profesor Ing. Dick Diaz, intenta simular de manera sencilla y directa un gestor de cuentas bancarias. Cuenta con apartados que van desde gestionar la sesion actual, hasta transferir, guardar contactos retirar al saldo actual y muchas otras caracteristicas.  
 
-* 'Si puedes imaginarlo, puedes programarlo'\n- Alejandro Taboada Sanchez. (2019)
+* 'Si puedes imaginarlo, puedes programarlo'
+- Alejandro Taboada Sanchez. (2019)
 
   **Guasdualito, Edo. Apure, Julio del 2026**
 
