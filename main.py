@@ -171,7 +171,7 @@ def _depositar():
   
   _clear()
   print(f"=== Deposito ===")
-  print(f"Ingrese un valor numerico.\n")
+  print(f"\nIngrese un valor numerico.\n")
   deposito = float(input("Deposito de: "))
   if deposito < 0:
     print(f"* Valor invalido... Ingrese un valor mayor a 0.")
@@ -242,7 +242,7 @@ def _trans_otro():
 
       if comision > 0:
         saldo_usuario -= monto + (monto * comision/100)
-        operaciones.append(f"Transferencia a {transferir_a} -> -{monto} + {comision}% por comison. ({(monto + (monto * comision/100)):.2f} En total.)")
+        operaciones.append(f"Transferencia a {transferir_a} -> -{monto} + {comision}% por comison. (-{(monto + (monto * comision/100)):.2f} En total.)")
       else:
         saldo_usuario -= monto
         operaciones.append(f"Transferencia a {transferir_a} -> -{monto}")
@@ -300,7 +300,7 @@ def _trans_contacto():
         comision = 0
         
       if comision > 0:  
-        saldo_usuario -= monto + (monto + (monto * comision/100))
+        saldo_usuario -= monto + (monto * comision/100)
         operaciones.append(f"Transferencia a {_ta} -> -{monto} + {comision}% por comision (-{(monto + (monto * comision/100)):.2f} En total)")
       else:
         saldo_usuario -= monto
