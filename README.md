@@ -1,4 +1,4 @@
-**UNELLEZ : Ingenieria Informatica III ===\n=== Algoritmos y programacion I : Evaluacion final, Modulo IV**
+**UNELLEZ : Ingenieria Informatica III : Algoritmos y programacion I : Evaluacion final, Modulo IV**
 
 Alumnos: 
 
