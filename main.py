@@ -26,7 +26,7 @@ contactos = [cli_edd, cli_mary]
 # FUNCIONES VARIAS
 def _clear():
   # Para limpiar la pantalla. Comprobamos si el SO donde trabajamos es Windows o, en su defecto, otro.
-  if platform == "Windows": 
+  if platform.system() == "Windows": 
     os.system("cls")
   else:
     os.system("clear")
@@ -190,7 +190,7 @@ def _trans_otro():
   global contactos
   global operaciones
 
-  todo_bien: False # Variable local para comprobar si el proceso va por orden.
+  todo_bien = False # Variable local para comprobar si el proceso va por orden.
 
   print(f"\n* Saldo actual: {saldo_usuario}\n")
   transferir_a = input("Ingrese el C.I. al que va a transferir: ")
@@ -312,7 +312,6 @@ def _trans_contacto():
   else:
     print(f"* Contacto no registrado. Indico su C.I correctamente?\n")
     input("Presione [ENTER] para continuar.")
-    _transferencia()
       
   # Volver al menu inicial < Este parte de _transferencia()
   _transferencia()
