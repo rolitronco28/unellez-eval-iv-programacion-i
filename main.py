@@ -64,7 +64,7 @@ def mostrar_contactos():
     print(f"* {i[0]} -> {i[1]}")
 
 def _inicio():
-  print(f"=== UNELLEZ : Ingenieria Informatica III ===\n=== Algoritmos y programacion I : Evaluacion final, Modulo IV ===\n\nAlumnos:\nYainer Alfonso Ramirez Gonzalez (C.I.: 29.681.766)\nEdduar Orlando Tapia Urbina (C.I.: 32.305.750)\n\n* Descripcion general: El siguiente programa, cuyas instrucciones fueron\notorgadas por el profesor Ing. Dick Diaz, intenta simular de manera sencilla\ny directa un gestor de cuentas bancarias. Cuenta con apartados que van\ndesde gestionar la sesion actual, hasta transferir, guardar contactos\nretirar al saldo actual y muchas otras caracteristicas.\n\n* 'Si puedes imaginarlo, puedes programarlo'\n- Alejandro Taboada Sanchez. (2019)\n\nGuasdualito, Edo. Apure, Julio del 2026.")
+  print(f"=== UNELLEZ : Ingenieria Informatica III ===\n=== Algoritmos y programacion I : Evaluacion final, Modulo IV ===\n\nAlumnos:\nYainer Alfonso Ramirez Gonzalez (C.I.: 29.681.766)\nEdduar Orlando Tapia Urbina (C.I.: 32.305.750)\n\n* Descripcion general: El siguiente programa, cuyas instrucciones fueron\notorgadas por el profesor Ing. Dick Diaz, intenta simular de manera sencilla\ny directa un gestor de cuentas bancarias. Cuenta con apartados que van\ndesde gestionar la sesion actual, hasta transferir, guardar contactos\nretirar al saldo actual y elementos esenciales.\n\n* 'Si puedes imaginarlo, puedes programarlo'\n- Alejandro Taboada Sanchez. (2019)\n\nGuasdualito, Edo. Apure, Julio del 2026.")
   print(f"\nNOTA: Programa sujeto a errores. No se hace uso de varias funciones importantes \npara evitarlos. (Requisito impuesto por conocimientos generales)")
   input(f"\nPresione [ENTER] para continuar.")
   _clear()
